@@ -1,7 +1,7 @@
 <body>
 	<link rel="stylesheet" href="./css/estilos_login.css">
 		<div class="superior">
-			<h1>UDEM STORE</h1>
+			<h1><font color="black">UDEM STORE</font></h1>
 			<img class="logo" src="./img/logo.png" alt="Logo de la aplicación">
 			<img class="logo_u" src="./img/logo_udemedellin.png" alt="Logo de la universidad">
 		</div>
@@ -9,7 +9,7 @@
 			<img class="avatar" src="./img/logo.png" alt="Logo de la aplicación">
 			<form class="box login" action="" method="POST" autocomplete="off">
 				
-				<h5 class="title is-5 has-text-centered is-uppercase">UdeM Store</h5>
+				<h5 class="title is-5 has-text-centered is-uppercase"><font color="#000";>UdeM Store</font></h5>
 
 				<div class="field">
 					<label class="label">Usuario</label>

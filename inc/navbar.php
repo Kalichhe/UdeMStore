@@ -1,9 +1,12 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
 
     <div class="navbar-brand">
-        <a class="navbar-item" href="index.php?vista=home">
-        <img src="./img/logo.png" width="40" height="38">
-        </a>
+            <a class="navbar-item" href="https://udemedellin.edu.co/">
+                <img src="./img/logo_udemedellin.png" width="100" height="45">
+            </a>
+            <a class="navbar-item" href="index.php?vista=home">
+                <img src="./img/logo.png" width="40" height="38">
+            </a>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -48,11 +51,9 @@
 
         </div>
 
+        
         <div class="navbar-end">
             <div class="navbar-item">
-                <a class="navbar-item" href="https://udemedellin.edu.co/">
-                    <img src="./img/logo_udemedellin.png" width="100" height="45">
-                </a>
                 <div class="buttons">
                     <a href="index.php?vista=user_update&user_id_up=<?php echo $_SESSION['id']; ?>" class="button is-primary is-rounded">
                         Mi cuenta
