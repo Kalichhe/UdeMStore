@@ -1,7 +1,6 @@
 <body>
 	<link rel="stylesheet" href="./css/estilos_login.css">
 		<div class="superior">
-			<h1><font color="black">UDEM STORE</font></h1>
 			<img class="logo" src="./img/logo.png" alt="Logo de la aplicación">
 			<img class="logo_u" src="./img/logo_udemedellin.png" alt="Logo de la universidad">
 		</div>
@@ -9,7 +8,7 @@
 			<img class="avatar" src="./img/logo.png" alt="Logo de la aplicación">
 			<form class="box login" action="" method="POST" autocomplete="off">
 				
-				<h5 class="title is-5 has-text-centered is-uppercase"><font color="#000";>Login</font></h5>
+				<h5 class="title is-5 has-text-centered is-uppercase"><font color="#000";>UDEM STORE</font></h5>
 
 				<div class="field">
 					<label class="label">Usuario</label>
@@ -35,8 +34,7 @@
 						require_once "./php/iniciar_sesion.php";
 					}
 					?>
-			<!-- <br><br><a href="#" onclick="Mostrar_Algo(Nombre)">Olvido su contraseña</a><br>
-			<a href="#" onclick="Mostrar_Algo(Cuenta)">Crear nueva cuenta</a> -->
+
 			</form>
 
 
