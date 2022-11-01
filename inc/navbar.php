@@ -52,8 +52,10 @@
                 <a class="navbar-link">Fechas</a>
 
                 <div class="navbar-dropdown">
-                    <a href="index.php?vista=date" class="navbar-item">Nueva fecha</a>
+                    <a href="index.php?vista=date" class="navbar-item">Nueva</a>
+                    <a href="index.php?vista=date_list" class="navbar-item">Lista</a>
                 </div>
+                
             </div>
 
             

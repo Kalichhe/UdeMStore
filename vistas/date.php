@@ -15,7 +15,7 @@
 		  	<div class="column">
 		    	<div class="control">
 					<label>Día</label>
-				  	<input class="input" type="text" name="fecha_dia" pattern="[a-zA-Z- ]{1,70}" maxlength="70" placeholder="Día en letras" required >
+				  	<input class="input" type="text" name="fecha_dia" pattern="[0-9-- ]{1,70}" maxlength="70" placeholder="Día en números" required >
 				</div>
 		  	</div>
 			<div class="column">
@@ -34,6 +34,5 @@
 		<p class="has-text-centered">
 			<button type="submit" class="button is-info is-rounded" >Guardar</button>
 		</p>
-		<!-- <button>fecha</button> -->
 	</form>
 </div>

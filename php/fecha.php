@@ -20,7 +20,7 @@
     }
 
     /*== Verificando integridad de los datos ==*/
-    if(verificar_datos("[a-zA-Z- ]{1,70}",$dia)){
+    if(verificar_datos("[0-9-]{1,70}",$dia)){
         echo '
             <div class="notification is-danger is-light">
                 <strong>¡Ocurrio un error inesperado!</strong><br>
