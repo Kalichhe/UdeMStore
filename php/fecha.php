@@ -1,5 +1,4 @@
 <?php
-    require_once "../inc/session_start.php";
 
     require_once "main.php";
 
@@ -7,6 +6,7 @@
     $dia=limpiar_cadena($_POST['fecha_dia']);
     $mes=limpiar_cadena($_POST['fecha_mes']);
     $ano=limpiar_cadena($_POST['fecha_ano']);
+
 
     /*== Verificando campos obligatorios ==*/
     if($dia=="" || $mes=="" || $ano==""){
