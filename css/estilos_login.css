@@ -62,14 +62,14 @@ body,html{
     border-radius: 20px;
 }
 
-.superior h1{
+/* .superior h1{
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size: 40px;
 	color: black;
 	font-weight: bold;
-}
+} */
 
 .superior .logo{
     width: 45px;
@@ -86,24 +86,23 @@ body,html{
     top: -2px;
 }
 
-
 .main-container input{
     width: 100%;
     margin-bottom: 20px;
     font-family: serif;
     border: none;
-    border-bottom: 1px solid white;
-    background: transparent;
+    border-bottom: 1px solid black;
+    background: white;
     outline: none;
     height: 40px;
-    color: rgb(189, 189, 189);
+    color: black;
     font-size: 16px;
     font-weight: bold;
 }
 
 
-.main-container input::placeholder{color: rgb(189, 189, 189);}[type="password"]{
-    color: rgb(189, 189, 189);
+.main-container input::placeholder{color: black;}[type="password"]{
+    color: black;
 }
 
 /* .main-container input{
@@ -126,12 +125,12 @@ body,html{
     color: black;
     font-size: 18px;
     font-weight: bold;
-    background-color: #E3F2FD;
+    background-color: white;
     border-radius: 20px;
     font-weight: bold;
     font-family: serif;
 }
 
 .main-container .has-text-centered button:hover{
-    color: #1565C0;
+    color: #1565c0;
 }
