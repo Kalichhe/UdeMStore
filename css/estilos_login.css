@@ -6,7 +6,6 @@ body,html{
     font-family: serif;
 }
 
-
 .main-container{
     width: 320px;
     height: 420px;
@@ -19,7 +18,6 @@ body,html{
     box-sizing:border-box;
     padding:50px 0px;
 }
-
 
 .main-container .avatar{
     width: 120px;
@@ -37,7 +35,6 @@ body,html{
     color: black;
 
 }
-
 
 .main-container > .login,
 .main-container > .hero-body{
@@ -61,15 +58,6 @@ body,html{
 	font-weight: bold;
     border-radius: 20px;
 }
-
-/* .superior h1{
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    font-size: 40px;
-	color: black;
-	font-weight: bold;
-} */
 
 .superior .logo{
     width: 45px;
@@ -100,22 +88,9 @@ body,html{
     font-weight: bold;
 }
 
-
 .main-container input::placeholder{color: black;}[type="password"]{
     color: black;
 }
-
-/* .main-container input{
-    border: none;
-    font-family: serif;
-    outline: none;
-    height: 40px;
-    background: white;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 20px;
-} */
 
 .main-container .has-text-centered button[type="submit"]{
     width: 100%;
