@@ -35,6 +35,7 @@
                     <th>Dia</th>
                     <th>Mes</th>
                     <th>Año</th>
+					<th colspan="2">Opciones</th>
                 </tr>
             </thead>
             <tbody>
